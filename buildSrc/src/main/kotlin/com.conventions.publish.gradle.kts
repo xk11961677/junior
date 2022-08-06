@@ -65,7 +65,7 @@ publishing {
     repositories {
         maven {
             credentials {
-                username = "${System.getenv("NEXUS_USER")?:System.getProperty("NEXUS_USER")}"
+                username = "${System.getenv("NEXUS_USERNAME")?:System.getProperty("NEXUS_USERNAME")}"
                 password = "${System.getenv("NEXUS_PASSWORD")?:System.getProperty("NEXUS_PASSWORD")}"
             }
             isAllowInsecureProtocol = true

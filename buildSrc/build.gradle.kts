@@ -14,6 +14,7 @@ kotlinDslPluginOptions{
 /* 与build.gradle.kts的plugins标签冲突 */
 dependencies {
     implementation("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.4.0.2513")
+    implementation("gradle.plugin.com.google.cloud.tools:jib-gradle-plugin:3.2.1")
 //  implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.0")
 //  implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.7.0")
 }
